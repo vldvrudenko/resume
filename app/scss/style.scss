@@ -1,0 +1,1485 @@
+$color: #d1be89;
+$backgroundColor: rgb(16, 39, 16);
+
+@media(min-width: 320px) {
+    .oskar-block{
+        width: 100%;
+
+        margin:auto;
+    }
+    .oskar-img-righting{
+        width: 160px;
+        float: right;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+    .oskar-img-lefting{
+        padding-right: 10px;
+        width:120px;
+        padding-top: 10px;
+        float: left;
+        border-radius: 5px;
+    }
+    .images-wrapper {
+        margin: auto;
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .image-to-show {
+        width: 320px;
+        height: 200px;
+        border-radius: 5px;
+    }
+    .slider-buttons{
+        width: 150px;
+        background-color:rgb(192, 160, 73);
+        border: 2px solid rgb(11, 49, 11);
+        color: rgb(11, 49, 11);
+        border-radius: 5px;
+    }
+    .buttons-slider-position{
+        margin: auto;
+        width: 320px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footer-gifs{
+        width: 160px;
+        height: 120px;
+    }
+    .footer-gifs-block{
+        width: 320px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .main-footer-element{
+        display: flex;
+    }
+    .main-footer-img{
+        width: 150px;
+        height: 120px;
+    }
+    .main-footer-block{
+        width: 320px;
+        margin: auto;
+        font-size: 15px;
+        text-align: center ;
+    }
+    button{
+        cursor: pointer;
+    }
+    .displays{
+        display: none;
+    }
+    .main-buttons{
+        background-color: $backgroundColor;
+        border: 2px solid $color;
+        padding: 10px;
+        border-radius: 10px;
+        color: $color;
+        font-family: 'Island Moments', cursive;
+        font-size: 20px;
+    }
+    .main-midle-block{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        width: 300px;
+        padding: 10px;
+    }
+    .main-midle-img{
+        width: 300px;
+    }
+    .main-midle-text{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .header_images{
+        width: 90%;
+        margin: auto;
+    }
+    .main-header{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .main-header-text{
+        width: 80%;
+        margin: auto;
+    }
+    .balrog-images{
+        width: 165px;
+        height: 120px;
+    }
+    .boromirBlock{
+        padding: 10px; 
+        max-width: 750px;
+        margin: auto;
+    }
+    .boromirsDeathBlock{
+        width: 150px;
+        height: 120px; 
+    }
+    .balrogVideo{
+        width: 100%;
+    }
+    .batleWithBalrog{
+        display: flex; 
+        max-width: 650px; 
+        margin: auto;
+        border-radius: 5px;
+    }
+    .blocks-display{
+        display: none;
+    }
+    .brotherhood-header {
+        position: relative;
+        width: 100%;
+        margin: auto;        
+        max-width:950px;
+    }
+    .brotherhood-header h1 {
+        position: absolute;
+        bottom: 0;
+        width:100%;
+    }
+    .brotherhood-header img {
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .max-width-display{
+        display: none;
+    }
+    .footerImage{
+        width: 150px;
+        margin: auto;
+    }
+    .footerImageLine{
+        width: 250px;
+        margin: auto;
+    }
+    .displays{
+        display: none;
+    }
+    .max-width-change{
+        display: none;
+    }
+    .max-width-brotherhood{
+        width:95px; 
+        height: 80px; 
+        border-radius: 5px;
+    }
+    .getting_info{
+        display: none;
+    }
+    .footer-story{
+        padding: 0px 20px;
+        text-align: center;
+        max-width: 400px;
+    }
+    .background-style{
+        width: 100%;
+        background-image: url(../images/img_second_part/2.jpg);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    .background-style-main{
+        width: 100%;
+        background-image: url(../images/img_main/first-text-logo.jpg);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .background-style-return-of-the-king{
+        width: 100%;
+        background-image: url(../images/img_third_part//asdas.jpg);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    .background-style-brotherhood{
+        width: 100%;
+        background-image: url(../images//img_first_part/thumb-1920-289924.jpg);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    .big-picture{
+        margin: auto;
+        background-color:rgba(43, 80, 43, 0.75);
+    }
+    .big-pictures{
+        margin: auto;
+        background-color:rgba(43, 80, 43, 0.50);
+    }
+    .gorlums-text{
+        background-color: rgb(11, 49, 11, 0.70);
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        font-family: 'Licorice', cursive;
+    }
+    .gorlum_story_text{
+        color: $color;
+        text-align: center;
+        padding: 5px;
+        width: 80%;
+        margin: auto;
+        max-width: 450px;
+    }
+    .gorlum_story_logo{
+        font-weight: bold;
+        font-size: 20px;
+        font-family: roboto;
+        margin: auto;
+        border: 2px solid rgb(11, 49, 11);
+        border-radius:5px;
+    }
+    .threeGroups{
+        width: 297px;
+        margin: auto;
+    }
+    .photo-line{
+        margin-left: 5px;
+        display: flex;
+    }
+    .groups-position {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .groups {
+        display: flex;
+    }
+    .positions-of-groups {
+        list-style: none;
+        padding-left: 0;
+    }
+    .tabs-groups {
+        padding: 12px;
+        border: 1px solid rgb(209, 190, 137);
+        background-color: rgb(11, 49, 11);
+        color: rgb(209, 190, 137) ;
+        cursor: pointer;
+    }
+    .tabs-groups:active{
+        background-color:rgb(209, 190, 137) ;
+        color: rgb(11, 49, 11);
+    }
+    .three-groups-position{
+        width: 300px;
+        text-align: center;
+    }
+    .midle-image-text{
+        padding: 10px;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        max-width: 750px;
+    }
+    .midle-image-second-part{
+        width: 310px;
+        height: 170px;
+        border-radius: 5px;
+    }
+    .fellowShip {
+    position: relative;
+    }
+    .fellowShip h1 {
+        position: absolute;
+        bottom: 0;
+        width:220px;
+    }
+    .fellowShip img{
+        margin-top: 10px;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    body {
+        min-width:300px;
+        color: $color;
+        background-color:rgb(70, 121, 66);
+        margin: auto;
+    }
+    .header-block{
+        position: relative;
+        margin: auto;        
+        max-width:950px;
+    }
+    .header-block h1 {
+        position: absolute;
+        bottom: 0;
+        padding: 10px;
+    }
+    .header-block img {
+        border-radius: 10px;
+        margin: auto;
+        width: 100%;
+    }
+    .max-width-returnKing-headerImage{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .header-text{
+        width:280px;
+        opacity: 0.7;
+        font-size:10px;
+        color:$color;
+    }
+    .text__phones{
+        color: $color;
+    }
+    .header-story-img{
+        width: 55%;
+    }
+    .header-story{
+        padding: 0px 10px 0px 10px;
+        max-width: 605px;
+        margin: auto;
+    }
+    .paralax-image{ 
+        background-image: url(../images/img_first_part/paralaxImage.webp);
+        min-height: 300px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dworfman_kingdom_logo{
+        padding-top: 35px;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: roboto;
+        text-align: center;
+        color: $color ;
+        width: 310px;
+        border-radius: 12px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    .firstPartImg{
+        margin: auto;
+        width: 100%;
+    }
+    .argonavtsStory{
+        background-color:rgb(11, 49, 11) ;
+        color:rgb(192, 160, 73) ;
+        border: 2px solid rgb(192, 160, 73);
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: roboto; 
+    }
+    .argonatBlock{
+        margin: auto;
+        width: 320px;
+        height: auto;
+    }
+    .argonatsDoorStoryText{
+        margin: auto;
+        width: 300px;
+        text-align: center;
+        color:rgb(192, 160, 73) ;
+    }
+    .deletes{
+        display: none;
+    }
+    .balrog-block{
+        padding: 10px;
+    }
+    .dvorfmanText{
+        padding: 5px;
+        border-radius: 5px;
+        opacity: 0.7;
+        margin: auto;
+        width: 300px;
+        background-color: $backgroundColor;
+        text-align: center;
+        color:$color ;
+    }
+    .last-batle{
+        text-align: center; 
+        max-width: 950px; 
+        margin: auto; 
+        padding: 10px;
+    }
+    a {
+        color: $color;
+        text-decoration: none;
+    }
+    .logo {
+        width:80px;
+        height:65px;
+    }
+    .logout {
+        color:$color;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .shelob {
+        justify-content: center;
+        margin: auto;
+    }
+    .start-of-the-battle {
+        padding:0px 10px 10px 10px;
+        max-width: 659px;
+        margin: auto;
+    }
+    .sem-img{
+        width: 100%;
+        height: 40%;
+    }
+    img {
+        border-radius: 5px;
+    }
+    .text-block {
+        max-width:600px;
+        margin: auto;
+    }
+    .pirates-text {
+        width:280px;
+        opacity: 0.7;
+        font-size:10px;
+        color: $color;
+        margin-left: 10px;
+        margin-top: 120px;
+    }
+    .first_part_textOfGlory {
+        width:80%;
+        opacity: 0.7;
+        font-size:10px;
+        background-color: $backgroundColor;
+        color: $color;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+    }   
+    .max-width-header-brootherhod {
+        width:80%;
+        opacity: 0.7;
+        font-size:10px;
+        background-color: $backgroundColor;
+        color: $color;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+    } 
+    .rightimg {
+        float: right;
+        border-radius: 5px;
+    }
+    .thirdTypeRightiming{
+        padding: 10px;
+        float: right;
+        border-radius: 5px;
+        width:50%;
+        height: 40%;
+    }
+    .thirdTypeLeftiming{
+        padding: 10px;
+        float: left;
+        border-radius: 5px;
+        width:55%;
+        height: 40%;
+    }
+    .leftimg {
+        padding-right: 10px;
+        float: left;
+        border-radius: 5px;
+
+    }
+    .lord_of_the_rings {
+        padding: 0px 10px 0px 10px;
+        font-size: 25px;
+        text-align: center;
+        color: rgb(196, 247, 169);
+        padding:5px;
+        width: 250px;
+        font-size: x-large;
+        border-radius: 12px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    h2 {
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        text-align: center;
+        white-space: nowrap;
+    }
+    h2:before,
+    h2:after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: black;
+    }
+    h2:before {
+    left: -10px;
+    margin-left: -50%;
+    }
+    h2:after {
+    left: 10px;
+    margin-right: -50%;
+    }
+    .osgiliot {
+        position: relative;
+        width: 100%;
+        margin: auto;        
+        max-width: 950px;
+    }
+    .osgiliot h1 {
+        position: absolute;
+        bottom: 0;
+        width:100%;
+    }
+    .osgiliot img {
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .denator {
+        position: relative;
+        width: 100%;
+        margin: auto;        
+        max-width:950px;
+    }
+    .denator h1 {
+        position: absolute;
+        bottom: 0;
+        width:100%;
+    }
+    .denator img {
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .denator-text { 
+        width:280px;
+        opacity: 0.7;
+        font-size:8.2px;
+        color: $color;
+        margin-left: 10px;
+        margin-top: 120px;
+    } 
+    .batle-story-block {
+        width: 90%;
+        margin: auto;
+        max-width: 500px;
+        padding-bottom: 15px;
+    }
+    .batle-block-settings-left {
+        float: left;
+        border-radius: 5px;
+        width: 50%;
+    }
+    .batle-block-settings-right {
+        float: right;
+        border-radius: 5px;
+        width: 50%;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    .aragorn-text {
+        background-color:$backgroundColor ;
+        width:280px;
+        opacity: 0.7;
+        font-size:10px;
+        color: $color ;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 120px;
+        padding: 5px 0px 5px 10px;
+    } 
+    .text-position {
+        display: none;
+    }  
+    .logo-nav {
+        display: flex;
+    } 
+    nav {
+        background-color: $backgroundColor;
+        border: 0.1px solid $color;
+    }
+    .btn-position {
+        margin: auto;
+        margin-bottom: 12px;
+    } 
+    .ork {
+        max-width: 220px;
+        padding-right: 10px;
+    }
+    .shelob-block {
+        max-width: 850px;
+        margin: auto;
+        padding: 10px 10px 0px 10px;
+    }
+    .menu{
+        padding-top: 12px;
+        padding-left:20%;
+        padding-right: 30px; 
+    }
+    .dropbtn::after {
+        content: "";
+        width: 12px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: $backgroundColor;
+        position: absolute;
+        top: 15px;
+        left: 14px;
+        -webkit-box-shadow: 0 4px 0 0 $backgroundColor, 0 8px 0 0 $backgroundColor;
+        box-shadow: 0 4px 0 0 $backgroundColor, 0 8px 0 0 $backgroundColor;
+    }
+    .dropbtn {
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border-radius: 3px;
+        background-color: $color;
+        position: relative;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: $backgroundColor;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px $color;
+        z-index: 1;
+        border-radius: 2px;
+    }
+    .dropdown-content a {
+        color: $color;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 2px;   
+    }
+    .dropdown-content a:hover {
+        background-color: $color;
+        color: $backgroundColor;
+        border:2px solid $backgroundColor;
+    }
+    .show {
+        display:block;
+    }
+    footer {
+        font-family: 'Island Moments', cursive;
+        background-color:$backgroundColor;
+        border: 0.5px solid $color;
+        color: $color;
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+    }
+    header {
+        font-size: 30px;
+        border-radius: 5px;
+        font-family: 'Island Moments', cursive;
+        background-color:$backgroundColor;
+        border: 0.5px solid $color;
+        color: $color;
+        text-align: center;
+        padding: 5px;
+    }
+    .galadriel-image{
+        width: 100%;
+        max-width:550px;
+    }
+}
+
+@media(min-width:441px) {
+        .oskar-block{
+        width: 400px;
+        margin:auto;
+    }
+        .three-groups-position{
+        width: 400px;
+        text-align: center;
+    }
+    .argonatsDoorStoryText{
+        margin: auto;
+        width: 300px;
+        text-align: center;
+        color:rgb(192, 160, 73) ;
+    }
+    .balrog-images{
+        width: 220px;
+        height: 150px;
+    }
+    .display-sem {
+        display: none;
+    }
+    .grimoType{
+        width: 250px;
+        height: 120px;
+    }
+    .first_part_textOfGlory {
+        opacity: 0.7;
+        font-size:5px;
+        color: $color ;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+    }
+    .header-gandalf-display{
+        display: none;
+    }
+    .pirates-text {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .midle-block-display{
+        display: none;
+    }
+    .balrog-block-display{
+        display: none;
+    }
+}
+
+@media(min-width:605px) {
+    .three-groups-position{
+        width: 500px;
+        text-align: center;
+    }
+    .gorlums-text{
+        width: 450px;
+    }
+    .boromir-block-display{
+        display: none;
+    }
+    .galadriel-max-width{
+        display: flex;
+        width: 600px;
+        margin: auto;
+        background-color: rgb(11, 49, 11, 0.70);
+    }
+    .galadriel-image{
+        width: 200px;
+        height: 100%;
+    }
+    .footerImageLine{
+        width: 350px;
+        margin: auto;
+    }
+    .threeGroups{
+    width: 450px;
+    margin: auto;
+    }
+    .max-width-brotherhood{
+        width:150px; 
+        height: 100px; 
+        border-radius: 5px;
+    }
+    .boromirBlock{
+        padding: 10px; 
+        width: 550px;
+        margin: auto;
+    }
+    .header-story{
+        font-size: 16px;
+    }
+    .display {
+        display: none;
+    }
+    .ork-text {
+        font-size:x-large;
+    }   
+    .start-of-the-battle {
+        max-width: 950px;
+        padding: 10px;
+    }
+    .pirates-text {
+        padding: 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}  
+
+@media(min-width:659px) {
+    .max-width-brotherhood{
+        width: 200px;
+        height: 135px;
+        border-radius: 0px;
+    }
+    .threeGroups{
+        margin: auto;
+        width: 600px;
+    }
+    .start-of-the-battle {
+        max-width: 659px;
+        margin: auto;
+    }   
+
+}
+@media(min-width: 768px) {
+    .max-width-brotherhood{
+        width: 150px;
+        height: 100px;
+    }
+    .threeGroups{
+        width: 768px;
+    }
+    .footerImageLine{
+        border-radius: 0px;
+        width: 250px;
+        height: 150px;
+        margin: auto;
+    }
+    .image-to-show {
+        width: 450px;
+        height: 270px;
+        border-radius: 5px;
+    }
+    .images-wrapper {
+        margin: auto;
+        width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .oskar-img-righting{
+        width: 250px;
+        float: right;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+    .oskar-img-lefting{
+        padding-right: 10px;
+        width:130px;
+        padding-top: 10px;
+        float: left;
+        border-radius: 5px;
+    }
+    .oskar-block{
+        width: 550px;
+        margin:auto;
+    }
+    .footer-gifs-block{
+        width: 700px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-gifs{
+        width: 160px;
+        height: 120px;
+        padding: 5px;
+    }
+    .main-footer-element{
+        display: flex;
+        padding: 3px;
+    }
+    .main-footer-text{
+        padding-top: 5px;
+    }
+    .main-footer-block{
+        width: 650px;
+        font-size: 20px;
+    }
+    .main-footer-img{
+        width: 150px;
+        height: 90px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .main-max-buttons{
+        display: none;
+    }
+    .displays{
+        display:grid;
+    }
+    .main-midle-block{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        width:650px;
+    }
+    .main-midle-img{
+        padding-right: 10px;
+        width: 350px;
+        height: 220px;
+    }
+    .main-midle-text{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .header_images{
+        width: 90%;
+        margin: auto;
+    } 
+    .header_images{
+        width: 100%;
+        margin: auto;
+    }
+    .main-header{
+        padding-top: 15px;
+        margin: auto;
+        width: 600px;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+    .main-header-text{
+        padding-left: 10px;
+        width: 350px;
+        margin: auto;
+    }  
+    .balrog-block{
+        width: 650px;
+        margin: auto;
+    }
+    .three-groups-position{
+        width: 700px;
+        text-align: center;
+    }
+    .boromirBlock{
+        padding: 10px; 
+        width: 550px;
+        margin: auto;
+    }
+    .midle-width-display{
+        display: none;
+    }
+    .boromirsDeathBlock{
+        width: 250px;
+        height: 150px; 
+    }
+    .batle-block-settings-right {
+        float: right;
+        border-radius: 5px;
+        width: 300px;
+        padding: 10px;
+    }
+    .batle-block-settings-left {
+        float: left;
+        border-radius: 5px;
+        width: 300px;
+        padding: 10px;
+    }
+    .header-text{
+        background-color:rgb(11, 49, 11, 0.78);
+        opacity: 0.7;
+        font-size:20px;
+        color:$color;
+    }
+    .btn-position{
+        display: none;
+    }
+    .denator-text{
+        width:300px;
+        font-weight: bold;
+        font-size: 30px;
+        opacity: 0.7;
+        font-size:15px;
+        color: $color ;
+        margin-left: 10px;
+        margin-top: 120px;
+    } 
+    .lord_of_the_rings {
+        font-size: 45px;
+        text-align: center;
+        color: rgb(196, 247, 169);
+        width: 450px;
+        border-radius: 12px;
+        margin: auto;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    .first_part_textOfGlory {
+        width:500px;
+        opacity: 0.7;
+        font-size:15px;
+        color: $color ;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding:1px 10px;
+    }   
+    .max-width-header-brootherhod{
+        width:500px;
+        opacity: 0.7;
+        font-size:15px;
+        color: $color ;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding:1px 10px;
+    }   
+    .text-position {
+        margin-top:30px;
+        display: flex;
+        width: 650px;
+        margin: auto;
+    }  
+    .midle-sem-position{
+        margin: auto;
+        width: 768px;
+    }
+    .main-images {
+        display: flex;
+        width: 700px;
+        margin: auto;
+        height: 350px;
+        border-radius:5px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    } 
+    .text-block {
+        margin: auto;
+        font-size: large;
+    }
+    .dropdown {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .logo-text {
+        margin-right: 15px;
+    }
+    .logo-text:hover {
+        cursor: pointer;
+        box-shadow: inset 0 -3px 0 0 $color; 
+        margin-bottom: -23px; 
+    }
+    .logo-text-first {
+        margin-right: 15px;
+        margin-left: 25px;    
+    }
+    .logo-text-first:hover {
+        cursor: pointer;
+        box-shadow: inset 0 -3px 0 0 $color; 
+        margin-bottom: -23px; 
+        margin-right: 15px;
+        margin-left: 25px;    
+    }
+    .text-position {
+        margin-top:30px;
+        display: flex;
+        width: 450px;
+        margin: auto;
+    }
+    .logo-position {
+        display:none;
+    }
+    .main-images {
+        display: flex;
+        width: 700px;
+        margin: auto;
+        height: 350px;
+        border-radius:5px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }  
+    .brotherhood {
+        width: 768px;
+        margin: auto;
+        position: relative;
+
+    }
+    .pirates-text {
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .dropbtn {
+        display: none;
+    }
+    .aragorn-text {
+        background-color:$backgroundColor;
+        width:450px;
+        opacity: 0.7;
+        font-size:15px;
+        padding: 2px 10px 2px 5px;
+        color: $color ;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 120px;
+    } 
+
+}
+
+@media(min-width: 1024px) {
+    .image-to-show {
+        width: 550px;
+        height: 350px;
+        border-radius: 5px;
+    }
+    .images-wrapper {
+        margin: auto;
+        width: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+      .oskar-img-righting{
+        width: 250px;
+        float: right;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+    .oskar-img-lefting{
+        padding-right: 10px;
+        width:140px;
+        padding-top: 10px;
+        float: left;
+        border-radius: 5px;
+    }
+    .oskar-block{
+        font-size: 20px;
+        width: 750px;
+        margin:auto;
+    }
+
+    .main-footer-element{
+        display: flex;
+        padding: 10px;
+    }
+
+    .main-footer-block{
+        width: 1000px;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main-footer-img{
+        width: 200px;
+        height: 150px;
+    }
+     .main-midle-block{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin: auto;
+        width: 550px;
+    }
+    .main-midle-img{
+        width:180px;
+        height: 130px;
+    }
+    .main-midle-text{
+        padding-top: 5px;
+        text-align: center;
+        font-size: 13px;
+
+        font-weight: bold;
+    }
+    .header_images{
+        width: 100%;
+        margin: auto;
+    }
+    .main-header{
+        padding-top: 15px;
+        margin: auto;
+        width: 750px;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+    .main-header-text{
+        padding: 10px;
+        font-size: 20px;
+        width: 400px;
+        margin: auto;
+    } 
+    .boromirBlock{
+        padding: 10px; 
+        width: 750px;
+        margin: auto;
+    }
+    .argonatBlock{
+        width:650px;
+    }
+    .batleWithBalrog{
+        display: none;
+    }
+    .galadrielBlock{
+        display: none;
+    }
+    .balrog-block{
+        display: none;
+    }
+    .paralax-image{ 
+        background-image: url(../images/img_first_part/paralaxImage.webp);
+        width: 950px; 
+        margin: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .dworfman_kingdom_logo{
+        padding-top: 35px;
+        font-weight: bold;
+        font-size:35px;
+        font-family: roboto;
+        text-align: center;
+        color: $color ;
+        width: 450px;
+        border-radius: 12px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    .dvorfmanText{
+        padding: 15px;
+        border-radius: 5px;
+        opacity: 0.7;
+        margin: auto;
+        width: 450px;
+        background-color: $backgroundColor;
+        text-align: center;
+        color:$color ;
+        margin: 10px;
+    }
+    .header-story-img{
+        width: 250px;
+    }
+    .header-story{
+        display: none;
+    }
+    .header-story{
+        font-size: 20px;
+    }
+    .blocks-display{
+        display: block;
+    }
+    .taverna {
+        position: relative;
+        width: 100%;
+        margin: auto;        
+        max-width: 950px;
+    }
+    .taverna h1 {
+        position: absolute;
+        bottom: 0;
+        width:100%;
+    }
+    .taverna img {
+        margin-top: 10px;
+        width: 450px;
+        height: 300px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .max-width-taverna{
+        width: 300px;
+        font-size:15px;
+        padding-left: 10px;
+    }
+    .max-width-block{
+        width: 850px;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 20px;
+        background-color:rgb(11, 49, 11, 0.60);
+        padding: 10px;
+    }
+    .max-width-header-brootherhod{
+        width:450px;
+        opacity: 0.7;
+        font-size:20px;
+        color: $color ;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 5px 5px 10px 10px;
+    } 
+    .brotherhood-header {
+        position: relative;
+        width: 600px;
+        margin: auto;        
+    }
+    .brotherhood-header h1 {
+        position: absolute;
+        bottom: 0;
+        width:120px;
+    }
+    .brotherhood-header img {
+        height: 300px;
+        margin-top: 10px;
+        width: 550px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .max-width-denetor{
+        display: flex;
+        width: 1000px;
+        margin: auto;
+    }
+    .shelob-block {
+        max-width: 940px;
+    }
+    .ork-text {
+        font-size:21px;
+
+    }   
+    .thirdTypeLeftiming{
+        padding: 0px 10px;
+        float: left;
+        border-radius: 5px;
+        width:150px;
+        height: 40%;
+    }  
+    .text-block{
+        display: none;
+    }
+    .max-width-display{
+        display: flex;
+    }
+    .header-text{
+        padding: 15px;
+        width:300px;
+        opacity: 0.7;
+        font-size:17px;
+        color:$color;
+        text-align: center;        
+        padding-top: 25px;
+    }
+    .max-width-denetor-text{
+        background-color:rgb(11, 49, 11, 0.78);
+        opacity: 0.7;
+        font-size:20px;
+        color:$color;
+        padding:30px;
+        width:750px;
+        opacity: 0.7;
+        font-size:17px;
+        color:$color;
+        text-align: center; 
+    }
+    .header-block{
+        display: none;
+    }
+    .footerImage{
+        border-radius: 0px;
+        height: 150px;
+        width: 250px;
+        margin: auto;
+    }
+    .footer-story{
+        padding: 0px 20px;
+        text-align: center;
+        max-width: 650px;
+    }
+    .max-width-batle-image{
+        height: 150px;
+        width: 350px;
+    }
+    .batle-story-block {
+        font-size: 20px;
+        width: 90%;
+        margin: auto;
+        max-width: 750px;
+        padding-bottom: 15px;
+    }
+    .midle-image-text{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .gorlums-img{
+        width:400px;
+        border-radius:0px ;
+    }
+    .max-width-gorlum{
+        margin: auto;
+        width: 800px;
+        display: flex;
+        height: 210px;
+    }
+    .gorlums-text{
+        display: none;
+    }
+    .max-width-gorlum-text{
+        background-color: rgb(11, 49, 11, 0.5);
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        height: 90%;
+    }
+    .threeGroups{
+        margin: auto;
+        width: 1000px;
+    }
+    .max-width-brotherhood{
+        width: 200px;
+        height: 135px;
+        border-radius: 0px;
+    }
+    .displays{
+        display: block;
+    }
+    .three-groups-position{
+        width: 800px;
+        text-align: center;
+    }
+    header{
+        font-size: 40px;
+    }
+    .logo-text {
+        margin-right: 15px;
+        font-size: 20px;
+    }
+    .logo-text-first {
+        font-size: 20px;
+    }
+    .text-position {
+        width: 540px;
+        font-weight: bold;
+    }
+    .start-of-the-battle{
+        font-size: 22px;
+        max-width: 950px;
+    }       
+    .midle-sem-position{
+        margin: auto;
+        width: 950px;
+    }
+    .lord_of_the_rings {
+        font-size: 35px;
+        text-align: center;
+        color: $backgroundColor;
+        width: 450px;
+        border-radius: 12px;
+        margin: auto;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    .first_part_textOfGlory {
+        width:750px;
+        opacity: 0.7;
+        font-size:20px;
+        color: $color ;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 5px 10px;
+    } 
+    .last-batle{
+        font-size: 20px;
+    }
+
+}
+
